@@ -13,7 +13,7 @@ import "./globals.css";
 // });
 
 export const metadata = {
-  title: "Zeal - Congregation Assistant",
+  title: "Zeal - Your Congregation Assistant",
   description: "All in one, free, multi-lingual congregation assisstant",
 };
 
