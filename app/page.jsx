@@ -20,6 +20,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FeaturesSection } from "@/components/features-section";
 import { TestimonialsSection } from "@/components/testimonials-section";
 import { CounterSection } from "@/components/counter-section";
+import { DesktopDownloadSection } from "@/components/desktop-download-section";
 
 export default function Home() {
   return (
@@ -77,6 +78,12 @@ export default function Home() {
               </a>
             </Button>
           </div>
+          <p className="mt-6 text-gray-600">
+            Also available for{" "}
+            <a href="#download" className="font-medium text-[#006cff] hover:underline">
+              Mac and Windows
+            </a>
+          </p>
           <div className="mt-12">
             <img
               src="/app-preview.png"
@@ -107,6 +114,9 @@ export default function Home() {
       {/* Features Section */}
       <FeaturesSection />
 
+      {/* Desktop Downloads */}
+      <DesktopDownloadSection />
+
       {/* Testimonials Section */}
       <TestimonialsSection />
 
@@ -128,7 +138,7 @@ export default function Home() {
             <div className="space-y-4">
               <FAQItem
                 question="How do I get started with Zeal?"
-                answer="Download the app from the Apple App Store, or Google Play Store create an account, and start exploring the features. It's completely free to use! You can also use the web version which may be more limited in features than the mobile applications. "
+                answer="Download the app from the Apple App Store or Google Play Store, or get the desktop app for Mac and Windows, then create an account and start exploring the features. It's completely free to use! You can also use the web version, which may be more limited in features than the mobile applications."
                 isOpenByDefault={true}
               />
               <FAQItem

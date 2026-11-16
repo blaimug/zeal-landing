@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { desktopDownloads } from '@/lib/downloads'
 
 export function Footer() {
   return (
@@ -70,6 +71,15 @@ export function Footer() {
                   alt="Get it on Google Play"
                   className="h-10"
                 />
+              </a>
+              <a href={desktopDownloads.macAppleSilicon} className="block pt-2 text-gray-600 hover:text-gray-900">
+                Mac (Apple Silicon)
+              </a>
+              <a href={desktopDownloads.macIntel} className="block text-gray-600 hover:text-gray-900">
+                Mac (Intel)
+              </a>
+              <a href={desktopDownloads.windowsX64} className="block text-gray-600 hover:text-gray-900">
+                Windows
               </a>
             </div>
           </div>

@@ -46,7 +46,7 @@ export function Navigation() {
               <Link href="https://app.zeal.rw">Sign In</Link>
             </Button>
             <Button asChild>
-              <Link href="https://apps.apple.com/us/app/zeal-congregation-assisstant/id6737194361">
+              <Link href="/#download">
                 Download
               </Link>
             </Button>
@@ -91,7 +91,7 @@ export function Navigation() {
                 <Link href="https://app.zeal.rw">Sign In</Link>
               </Button>
               <Button asChild className="w-full">
-                <Link href="https://apps.apple.com/us/app/zeal-congregation-assisstant/id6737194361">
+                <Link href="/#download" onClick={() => setIsOpen(false)}>
                   Download
                 </Link>
               </Button>
